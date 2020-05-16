@@ -4,7 +4,8 @@ Created on Sat May 16 12:32:48 2020
 
 @author: Wei Fong
 """
-
+'Editing of Orignal Slope Function by Mayank Rasu: https://www.udemy.com/course/algorithmic-trading-quantitative-analysis-using-python/'
+'Added simple trend generator so as to process indicators like RSI, OBV, etc and determine direction algorithmically rather than using charting'
 
 def slopetrends(DF,n):
     'Calculate the slope angles'
