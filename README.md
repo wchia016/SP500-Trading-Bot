@@ -1,2 +1,2 @@
 # Trading-Bot-v1
-This will be my first attempt at programming an algorithmic-driven trading bot. My main technical indicator will be PSAR indicator.
+This will be my first attempt at programming an algorithmic-driven trading bot. My main technical indicator will be the PSAR indicator. It will be used to establish the trend of prices and determine whether it is Bullish or Bearish. Work is in progress to add a momentum indicator to measure the strength of the trend. This will be used to further refine the determination of an impending reversal and to set the Stop Loss/Take Profit condition.
