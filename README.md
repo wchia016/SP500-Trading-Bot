@@ -11,6 +11,8 @@
 
 ## Hypothesis
 ![200EMA_SP500](https://github.com/wchia016/Trading-Bot-v1/blob/master/image/200EMA_BB.png)
+(Click image to expand)
+\
 During low volatility periods, the tendency of the S&P500 is to be Bullish. In the long run, the S&P500 is well supported by the 200EMA line and any price downswings recovers quickly. The 200EMA support is usually broken when volatility starts to spike. For my analysis, I proxied the measurement of volatility using Bollinger Bandwith (BB-Width). It can be observed that when BB-Width starts to turn sharply upwards, it is almost always followed by a sharp fall in prices.
 \
 \
@@ -21,6 +23,8 @@ Hence, I concluded that in times of low volatility, it is best to Long the S&P50
 It represents the distance between the upper and lower bands of the Bollinger Bands, normalized by dividing against the centreline of the Bollinger Bands. When volatility rises, so too does BB-Width. I use it to monitor for volatility spikes above a certain threshold which could signal an imminent price crash. I term volatility as 'High' when BB-Width crosses my divider line.
 ### Parabolic SAR (PSAR)
 ![PSAR_SP500](https://github.com/wchia016/Trading-Bot-v1/blob/master/image/PSAR_BB.png)
+(Click image to expand)
+\
 PSAR are dots that appear above or below stock prices. When the dots are below prices (Green Dots), it indicates Bullishness. When the dots are above prices (Red Dots), it indicates Bearishness. Reversals are signalled when the dots flip over to the opposite end of prices. During periods of High BB-Width (high volatility), trend reversals signalled are generally accurate and identified trends prolonged (see Purple line & sharp price decline regions). Using PSAR to decide appropriate Long-Short positions helps position onself against large losses, potentially even profiting from volatile price movements.
 \
 \
@@ -81,6 +85,8 @@ When BB-Width < 0.071, I am inclined to go Long for most situations since it wou
   ```
 ## 5-Year Historical Data
 ![Returns](https://github.com/wchia016/Trading-Bot-v1/blob/master/image/s%26p500_vs_cumul_ret.png)
+(Click image to expand)
+\
 Ticker | ^GSPC | SPY | ALgorithm
 --- | --- | --- | ---
 **CAGR** | 8.26% | 9.05% | 20.54%
