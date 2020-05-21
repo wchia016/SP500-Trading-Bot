@@ -15,7 +15,7 @@ During low volatility periods, the tendency of the S&P500 is to be Bullish. In t
 \
 \
 Hence, I concluded that in times of low volatility, it is best to Long the S&P500 index due to its natural Bullish tendencies. When volatility starts to rise rapidly, it is better to Short the S&P500 or stay on the sidelines due to natural Bearish tendences during periods of volatile trading. My algorithm will seek to minimize the losses from these sharp downturns.
-
+\
 ## Technical Indicators
 ### Bollinger Band Width (BB-Width)
 It represents the distance between the upper and lower bands of the Bollinger Bands, normalized by dividing against the centreline of the Bollinger Bands. When volatility rises, so too does BB-Width. I use it to monitor for volatility spikes above a certain threshold which could signal an imminent price crash. I term volatility as 'High' when BB-Width crosses my divider line.
@@ -27,7 +27,7 @@ PSAR are dots that appear above or below stock prices. When the dots are below p
 However, for Low BB-Width (low volatility) periods, the rate of false reversal signals is high. In the Blue line regions, short signals are frequent but unreliable, only lasting a few trading days and prices generally continued to climb instead. Using PSAR to trade and position is likely to create more losses than gains. 
 ### 200 Exponential Moving Average (200EMA)
 The 200EMA is natural support for the S&P500 index when uptrend. It will mainly be used to identify the overall trend of the S&P500.
-
+\
 ## Algorithm
 From repeated backtesting, I have determined 0.071 as the optimal threshold BB-Width level to decide when volatility is high. Any other values would lead to a drop in returns. Setting BB-Width any higher may delay switching to PSAR to protect against negative returns from imminent high volatility. Setting BB-Width lower may risk false signals from PSAR indicator affecting returns.
 \
@@ -89,5 +89,6 @@ Ticker | ^GSPC | SPY | ALgorithm
 Data Sources: [Morningstar](https://www.morningstar.com/etfs/arcx/spy/performance) and [DQYDJ](https://dqydj.com/sp-500-return-calculator/)
  
 Comparing with the volatile price swings of the S&P500, the algorithm successfully reduced the flucutations in cumulative returns. Upon reaching the recent crash in price in Feb-March 2020, cumulative returns shot up unlike the S&P500 which declined more than 50% before recovering. This also suggests that the algorithm has succeeded in protecting against negative price swings. Moving forward, I am testing this algorithm on a dummy account to ensure it holds in actual trading. 
+\
 ## Full Backtesting Code
 
