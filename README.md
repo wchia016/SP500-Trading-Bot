@@ -7,7 +7,7 @@
     - [200 Exponential Moving Average](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md#200-exponential-moving-average-200ema)
 - [Algorithm](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md#algorithm)
 - [5 Year Historical Data](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md#5-year-historical-data)
-- [Backtesting Code](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md#full-backtesting-code)
+- [Backtesting Code (Click here to skip forward to the code)](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md#full-backtesting-code)
 
 ## Hypothesis
 ![200EMA_SP500](https://github.com/wchia016/Trading-Bot-v1/blob/master/image/200EMA_BB.png)
