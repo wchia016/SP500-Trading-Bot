@@ -1,13 +1,13 @@
 # PSAR, Bollinger Band Width and 200EMA Trading Bot
 ## Table of Contents
-- [Hypothesis]
-- [Technical Indicators]
-    - [Bollinger Band Width]
-    - [Parabolic SAR]
-    - [200 Exponential Moving Average]
-- [Algorithm]
-- [5 Year Historical Data]
-- [Full Backtesting Code]
+- [Hypothesis](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md)
+- [Technical Indicators](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md#technical-indicators)
+    - [Bollinger Band Width](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md#bollinger-band-width-bb-width)
+    - [Parabolic SAR](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md#parabolic-sar-psar)
+    - [200 Exponential Moving Average](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md#200-exponential-moving-average-200ema)
+- [Algorithm](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md#algorithm)
+- [5 Year Historical Data](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md#5-year-historical-data)
+- [Full Backtesting Code](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md#full-backtesting-code)
 
 ## Hypothesis
 ![200EMA_SP500](https://github.com/wchia016/Trading-Bot-v1/blob/master/image/200EMA_BB.png)
