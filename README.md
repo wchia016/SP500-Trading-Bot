@@ -17,10 +17,10 @@ PSAR are dots that appear above or below stock prices. When the dots are below p
 \
 However, for Low BB-Width (low volatility) periods, the rate of false reversal signals is high. In the Blue line regions, short signals are frequent but unreliable, only lasting a few trading days and prices generally continued to climb instead. Using PSAR to trade and position is likely to create more losses than gains. 
 ### 200 Exponential Moving Average (200EMA)
-The 200EMA is natural support for the S&P500 index when uptrend. I mainly use it to identify the overall trend of the S&P500.
+The 200EMA is natural support for the S&P500 index when uptrend. It will mainly be used to identify the overall trend of the S&P500.
 
 ## Algorithm
-From repeated backtesting, I have determined 0.071 as the optimal threshold BB-Width level to decide when volatility is high.
+From repeated backtesting, I have determined 0.071 as the optimal threshold BB-Width level to decide when volatility is high. Any other values would lead to a drop in returns. Setting BB-Width any higher may delay switching to PSAR to protect against negative returns from imminent high volatility. Setting BB-Width lower may risk false signals from PSAR indicator affecting returns.
 \
 When BB-Width >= 0.071, PSAR will determine Long-Short positions
 \
