@@ -5,4 +5,4 @@ It is widely accepted that index investment is the best long-term investment met
 
 ### Hypothesis
 
-![200EMA_SP500](https://raw.githubusercontent.com/wchia016/Trading-Bot-v1/master/image/200EMA_BB.png?token=APQA2ZSJS74IGAEI2AGB43K6YYOLE)
+![200EMA_SP500](https://raw.githubusercontent.com/wchia016/Trading-Bot-v1/master/image/200EMA_BB.png?token=APQA2ZXIEMCD746XJJJGTQC6YYPQ4)
