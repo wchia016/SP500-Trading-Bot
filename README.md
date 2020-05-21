@@ -244,7 +244,7 @@ def BollB(DF,n):
 'Strategy Algorithm & Backtesting'
 
 tickers = ['^GSPC']
-ohlc = retrieve_ohlc(tickers, 1825+141,'1d') #10years + 20 days for BollB
+ohlc = retrieve_ohlc(tickers, 1825+141,'1d') #5years + 141days (take ref. from Jan 2015). 5 years only if calculate 5 year performance
 
 #ohlc = yf.download('^GSPC', start=datetime.date.today()-datetime.timedelta(1825+141),end=datetime.date.today()-datetime.timedelta(141),interval='1d')
 SnP = BollB(ohlc['^GSPC'], 20) #Try BollB Width 80
