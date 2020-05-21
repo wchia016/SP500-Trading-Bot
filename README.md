@@ -21,4 +21,7 @@ PSAR are dots that appear above or below stock prices. They are commonly used to
 \
 However, for low volatility periods, it faces a high rate of false reversals. As seen above, short signals are frequent but only last a few trading days and prices barely moved lower. It would be difficult to trade using PSAR. 
 ### 200 Exponential Moving Average (200EMA)
-Due to 200EMA being the natural support for the S&P500 index, we will use this indicator as 
+Due to the 200EMA being the natural support for the S&P500 index, we mainly use it observe whether the S&P500 is still on an uptrend.
+
+## Algorithm
+I have set a limit of BB-Width = 0.071 to mark out the end of low volatility.
