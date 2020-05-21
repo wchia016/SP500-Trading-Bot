@@ -70,3 +70,12 @@ When BB-Width < 0.071, I am inclined to go Long for most situations since it wou
             else:
                 continue
   ```
+## Results
+![Returns](https://github.com/wchia016/Trading-Bot-v1/blob/master/image/s%26p500_vs_cumul_ret.png)
+Ticker | ^GSPC | SPY | ALgorithm
+--- | --- | --- | ---
+**CAGR** | 8.26% | 9.05% | 20.54%
+**Sharpe** | - | 0.59 | 0.93
+
+Data Sources: [Morningstar](https://www.morningstar.com/etfs/arcx/spy/performance) and [DQYDJ](https://dqydj.com/sp-500-return-calculator/)
+\ 
