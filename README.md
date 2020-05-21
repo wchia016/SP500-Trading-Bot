@@ -7,7 +7,7 @@
     - [200 Exponential Moving Average](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md#200-exponential-moving-average-200ema)
 - [Algorithm](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md#algorithm)
 - [5 Year Historical Data](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md#5-year-historical-data)
-- [Full Backtesting Code](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md#full-backtesting-code)
+- [Backtesting Code](https://github.com/wchia016/Trading-Bot-v1/blob/master/README.md#full-backtesting-code)
 
 ## Hypothesis
 ![200EMA_SP500](https://github.com/wchia016/Trading-Bot-v1/blob/master/image/200EMA_BB.png)
@@ -86,7 +86,7 @@ When BB-Width < 0.071, I am inclined to go Long for most situations since it wou
 ## 5-Year Historical Data
 ![Returns](https://github.com/wchia016/Trading-Bot-v1/blob/master/image/s%26p500_vs_cumul_ret.png)
 (Click image to expand)
-\
+
 Ticker | ^GSPC | SPY | ALgorithm
 --- | --- | --- | ---
 **CAGR** | 8.26% | 9.05% | 20.54%
@@ -96,7 +96,8 @@ Data Sources: [Morningstar](https://www.morningstar.com/etfs/arcx/spy/performanc
  
 Comparing with the volatile price swings of the S&P500, the algorithm successfully reduced the flucutations in cumulative returns. Upon reaching the recent crash in price in Feb-March 2020, cumulative returns shot up unlike the S&P500 which declined more than 50% before recovering. This also suggests that the algorithm has succeeded in protecting against negative price swings. Moving forward, I am testing this algorithm on a dummy account to ensure it holds in actual trading. 
 
-## Full Backtesting Code
+## Backtesting Code
+Full Code: [Link}(https://github.com/wchia016/Trading-Bot-v1/blob/master/Improved%20SP500%20Strat.py)
 ```
 #-----------------------------------------------------------------------------
 'List of Libraries'
