@@ -70,7 +70,7 @@ When BB-Width < 0.071, I am inclined to go Long for most situations since it wou
             else:
                 continue
   ```
-## Results
+## 5-Year Historical Data
 ![Returns](https://github.com/wchia016/Trading-Bot-v1/blob/master/image/s%26p500_vs_cumul_ret.png)
 Ticker | ^GSPC | SPY | ALgorithm
 --- | --- | --- | ---
@@ -79,3 +79,4 @@ Ticker | ^GSPC | SPY | ALgorithm
 
 Data Sources: [Morningstar](https://www.morningstar.com/etfs/arcx/spy/performance) and [DQYDJ](https://dqydj.com/sp-500-return-calculator/)
 \ 
+Comparing with the volatile price swings of the S&P500, the algorithm successfully reduced the flucutations in cumulative returns. Upon reaching the recent crash in price in Feb-March 2020, cumulative returns shot up unlike the S&P500 which declined more than 50% before recovering. This also suggests that the algorithm has succeeded in protecting against negative price swings.
