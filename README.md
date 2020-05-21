@@ -13,6 +13,7 @@
 ![200EMA_SP500](https://github.com/wchia016/Trading-Bot-v1/blob/master/image/200EMA_BB.png)
 (Click image to expand)
 \
+\
 During low volatility periods, the tendency of the S&P500 is to be Bullish. In the long run, the S&P500 is well supported by the 200EMA line and any price downswings recovers quickly. The 200EMA support is usually broken when volatility starts to spike. For my analysis, I proxied the measurement of volatility using Bollinger Bandwith (BB-Width). It can be observed that when BB-Width starts to turn sharply upwards, it is almost always followed by a sharp fall in prices.
 \
 \
@@ -24,6 +25,7 @@ It represents the distance between the upper and lower bands of the Bollinger Ba
 ### Parabolic SAR (PSAR)
 ![PSAR_SP500](https://github.com/wchia016/Trading-Bot-v1/blob/master/image/PSAR_BB.png)
 (Click image to expand)
+\
 \
 PSAR are dots that appear above or below stock prices. When the dots are below prices (Green Dots), it indicates Bullishness. When the dots are above prices (Red Dots), it indicates Bearishness. Reversals are signalled when the dots flip over to the opposite end of prices. During periods of High BB-Width (high volatility), trend reversals signalled are generally accurate and identified trends prolonged (see Purple line & sharp price decline regions). Using PSAR to decide appropriate Long-Short positions helps position onself against large losses, potentially even profiting from volatile price movements.
 \
@@ -97,7 +99,7 @@ Data Sources: [Morningstar](https://www.morningstar.com/etfs/arcx/spy/performanc
 Comparing with the volatile price swings of the S&P500, the algorithm successfully reduced the flucutations in cumulative returns. Upon reaching the recent crash in price in Feb-March 2020, cumulative returns shot up unlike the S&P500 which declined more than 50% before recovering. This also suggests that the algorithm has succeeded in protecting against negative price swings. Moving forward, I am testing this algorithm on a dummy account to ensure it holds in actual trading. 
 
 ## Backtesting Code
-Full Code: [Link}(https://github.com/wchia016/Trading-Bot-v1/blob/master/Improved%20SP500%20Strat.py)
+Full Code: [Link](https://github.com/wchia016/Trading-Bot-v1/blob/master/Improved%20SP500%20Strat.py)
 ```
 #-----------------------------------------------------------------------------
 'List of Libraries'
