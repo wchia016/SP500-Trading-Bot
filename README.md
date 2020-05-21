@@ -78,5 +78,5 @@ Ticker | ^GSPC | SPY | ALgorithm
 **Sharpe** | - | 0.59 | 0.93
 
 Data Sources: [Morningstar](https://www.morningstar.com/etfs/arcx/spy/performance) and [DQYDJ](https://dqydj.com/sp-500-return-calculator/)
-\ 
+ 
 Comparing with the volatile price swings of the S&P500, the algorithm successfully reduced the flucutations in cumulative returns. Upon reaching the recent crash in price in Feb-March 2020, cumulative returns shot up unlike the S&P500 which declined more than 50% before recovering. This also suggests that the algorithm has succeeded in protecting against negative price swings.
