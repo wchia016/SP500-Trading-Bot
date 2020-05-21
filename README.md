@@ -5,7 +5,7 @@ It is widely accepted that index investment is the best long-term investment met
 
 ### Hypothesis
 
-![200EMA_SP500](https://raw.githubusercontent.com/wchia016/Trading-Bot-v1/master/image/200EMA_BB.png?token=APQA2ZXIEMCD746XJJJGTQC6YYPQ4)
+![200EMA_SP500](https://github.com/wchia016/Trading-Bot-v1/blob/master/image/200EMA_BB.png)
 \
 Generally, we observe that in times of low volatility, the index has the tendency to be bullish. There are price downswings along the way but they are negligible compared to the overall trend. In the long run, the S&P500 is well supported by the 200EMA line. The times when the 200EMA support was broken is when volatility starts to spike up. For my analysis, I proxied measurement of volatility using the Normalized Bollinger Bandwith (BB-Width) indicator. It can be observed that when the BB-Width starts to turn sharply upwards, it is almost always followed by a sharp fall in prices. \
 Hence, I concluded that in times of low volatility
